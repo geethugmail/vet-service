@@ -116,8 +116,6 @@ USE_TZ = True
 ON_DOCKER = 'IS_DOCKER' in os.environ
 DEBUG = False if ON_DOCKER else True
 
-BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-#BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 STATIC_URL = '/static/'
 STATIC_ROOT = os.path.join(BASE_DIR, 'static')
 #STATICFILES_DIRS = [os.path.join(BASE_DIR, 'staticfiles'),]
