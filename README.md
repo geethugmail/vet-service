@@ -1,5 +1,5 @@
 # vet-service
-Python Django REST API service for CRUD operations on Vet
+Python Django REST API service to ADD,UPDATE,VIEW,DELETE Vet details for pet-clinic app
 
 # Pre-requisites
 - Git 
