@@ -8,7 +8,7 @@ Python Django REST API service to ADD,UPDATE,VIEW,DELETE Vet details for pet-cli
 # Run the service
 
 Checkout locally the code from repo
-`git clone https://github.com/paulcleetus/petclinic.git`
+`git clone https://github.com/geethugmail/vet-service.git`
 
 Build the Docker Image
 `docker build -t vet-service .`
