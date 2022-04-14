@@ -16,7 +16,7 @@ Build the Docker Image
 Run the Docker Image, expose the containers 8030 port to the local machines 8030 port
 `docker run -it -p 8030:8030 vet-service`
 
-API uri:
-'http://localhost:8030'
+API uri
+http://localhost:8030
 
 Import vet-service.postman_collection.json into postman to run the APIs
